@@ -1,88 +1,42 @@
-
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Book Library</title>
-  <style>
-    body {
-      background-color: #f8f8f8;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .book-library {
-      display: grid;
-      gap: 20px;
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .book {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 15px;
-      text-align: center;
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .book:hover {
-      transform: translateY(-5px);
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
-    }
-
-    .book img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-
-    .book h3 {
-      font-size: 18px;
-      margin: 10px 0 5px;
-    }
-
-    .book p.author {
-      color: #777777;
-      font-size: 14px;
-      margin: 5px 0;
-    }
-
-    .book p.price {
-      color: #2ecc71;
-      font-weight: bold;
-      margin: 5px 0 0;
-    }
-  </style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-	<div> <b>Book Library</b></div>
+	<!-- the entire body must be written by student -->
+	<div style="text-align: center;">
+  <b>Book Library</b>
+</div>
   <div class="book-library">
      
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
       <h3>Spy in the Amber</h3>
       <p class="author">Author: Manohar Malgonkar</p>
-      <p class="price">₹350</p>
+     <button class="price">₹350</button>
     </div>
 
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
       <h3>Sacred Games</h3>
       <p class="author">Author: Vikram Chandra</p>
-      <p class="price">₹499</p>
+      <button class="price">₹499</button>
     </div>
 
     <div class="book">
       <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
       <h3>Byomkesh Bakshi</h3>
       <p class="author">Author: Sharadindu Bandyopadhyay</p>
-      <p class="price">₹299</p>
+      <button class="price">₹299</button>
     </div>
   </div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>

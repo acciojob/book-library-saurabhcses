@@ -1,0 +1,35 @@
+body {
+      background-color: #f8f8f8;
+    }
+
+    .book-library {
+      background-color: #ffffff;
+      padding: 20px;
+      
+    }
+
+    .book {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+     
+    }
+
+    .book img {
+      max-width: 100%;
+    }
+
+
+    .book p.author {
+      color: #777777;
+      
+     
+    }
+
+    .price {
+      background-color: #2ecc71;
+      width:100%;
+      
+    }
+  
