@@ -1,6 +1,11 @@
 body {
       background-color: #f8f8f8;
+	  margin:50px
     }
+div{
+	padding:20px;
+	margin:20px;
+}
 
     .book-library {
       background-color: #ffffff;
@@ -10,8 +15,9 @@ body {
 
     .book {
       background: #fff;
-      border: 1px solid #ddd;
-      padding: 15px;
+      border: none;
+      padding: 55px;
+	margin-top:1px;
       text-align: center;
      
     }
